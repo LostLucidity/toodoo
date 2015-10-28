@@ -1,3 +1,9 @@
-<h2>New Task</h2>
+<h2>Listing Task</h2>
 
-<%= render 'form' %>
+<ul id="tasks">
+  <%= render 'form' %>
+</ul>
+
+<br>
+
+<%= link_to 'New Task', new_task_path %>
